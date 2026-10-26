@@ -1,0 +1,1119 @@
+{
+  "schemaVersion": 1,
+  "site": "https://aicode-nexus.github.io/mobile-inspector-docs/",
+  "base": "/mobile-inspector-docs/",
+  "version": "0.1.0",
+  "sourceCommit": "38fd54a03691ccd4d27cae27ce0ecdbde55ac858",
+  "release": true,
+  "build": {
+    "schemaVersion": 1,
+    "version": "0.1.0",
+    "sourceCommit": "38fd54a03691ccd4d27cae27ce0ecdbde55ac858",
+    "dirty": false,
+    "mode": "clean-source",
+    "inputHash": "e4bbb8090170868b3e51700754938ae7fbe93c443adb31c70dec7958c93add58",
+    "contentHash": "685255c5c0dcb5fb4c8d85b31b2bee22b10d3fe64ab81ada74b69e5980edca2e"
+  },
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1247,
+      "sha256": "ad3e5d626e68ebc977a39ef177761aa0620189a405765717f7444419f0b978bb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2794,
+      "sha256": "42f5be7f69288a94ab6642937e2680b5dda049eaf6c75492555c1412fa89c37f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 313412,
+      "sha256": "d0ed8cb06a5be78cd1806050cc3e943ee8e7563fcbd4a216095b4ffc425c34bd"
+    },
+    {
+      "path": "site/404.html",
+      "bytes": 9105,
+      "sha256": "62e58ac94d487b2e92ea535aee623786435a83649c33f2139743f094ab5904c9"
+    },
+    {
+      "path": "site/assets/404.md.B054P73F.js",
+      "bytes": 974,
+      "sha256": "6f8781d068f46814409368597169336ea67d3693544296bab30844aacbada90b"
+    },
+    {
+      "path": "site/assets/404.md.B054P73F.lean.js",
+      "bytes": 974,
+      "sha256": "6f8781d068f46814409368597169336ea67d3693544296bab30844aacbada90b"
+    },
+    {
+      "path": "site/assets/app.BDfqdT2_.js",
+      "bytes": 1352,
+      "sha256": "e19c8941fed9f78e2689b4c0dc78c8619669cf046a8dc8589579bdf2be64059f"
+    },
+    {
+      "path": "site/assets/chunks/@localSearchIndexen.Cd8q45WZ.js",
+      "bytes": 69651,
+      "sha256": "9ad119098b222b53b70557f941782177401a1b1a2a655d8be8f1706be2839bd4"
+    },
+    {
+      "path": "site/assets/chunks/@localSearchIndexroot.CkMNlN7u.js",
+      "bytes": 2123,
+      "sha256": "9acaa850b066f23e87a5b14fa6351e2812fa3aa326ac0bcd3724623120af23b9"
+    },
+    {
+      "path": "site/assets/chunks/@localSearchIndexzh.Dn7xXDVs.js",
+      "bytes": 66418,
+      "sha256": "9743d91b192974e84383a9cb9b3b8cbedf52fb840ec385416a41438c7ff87cd6"
+    },
+    {
+      "path": "site/assets/chunks/VPLocalSearchBox.BiPD5MKu.js",
+      "bytes": 64062,
+      "sha256": "61e55a2c80eb6755c747a35da08b7ea4cf4cf45361f17589d2155377e8a8086e"
+    },
+    {
+      "path": "site/assets/chunks/framework.iWwp2X7T.js",
+      "bytes": 115157,
+      "sha256": "5394b89da3c3e4e254b9a61df78203fae3d97a9793e36441a76271d177a2dead"
+    },
+    {
+      "path": "site/assets/chunks/theme.B8OQItVG.js",
+      "bytes": 53749,
+      "sha256": "f735ad2643dbfd44043bd97cf442c14517d051c2be85d6f81e619f9155eb48cc"
+    },
+    {
+      "path": "site/assets/en_guide_capture-model.md.B5d8s7HD.js",
+      "bytes": 2860,
+      "sha256": "9791e0aceea5ab20c953635a1921354eac7fdd1b10346888b8c7c8c1a9e652a0"
+    },
+    {
+      "path": "site/assets/en_guide_capture-model.md.B5d8s7HD.lean.js",
+      "bytes": 589,
+      "sha256": "cb25a3023b235cb327ff4e28dd9e5b981ad5bb14a71569e5b26100ec9b27582d"
+    },
+    {
+      "path": "site/assets/en_guide_compatibility.md.DWtL548H.js",
+      "bytes": 3620,
+      "sha256": "f085e583ac81c073bb140740ad2bdf73310dbe86004ce1b0f0eb760726c68638"
+    },
+    {
+      "path": "site/assets/en_guide_compatibility.md.DWtL548H.lean.js",
+      "bytes": 588,
+      "sha256": "5f8afe8defda26d147db7cd5ca4004b90762637452f83dcb14d97d4de3cb9b02"
+    },
+    {
+      "path": "site/assets/en_guide_connection-lan.md.Bm2uYL3Q.js",
+      "bytes": 3029,
+      "sha256": "a1b598c5a5fb41baba0ce35a3732d377fd0d2eba4a59edf028099ba180ea2e94"
+    },
+    {
+      "path": "site/assets/en_guide_connection-lan.md.Bm2uYL3Q.lean.js",
+      "bytes": 604,
+      "sha256": "3484b4a287be31c409d65cd88b72c71fe12f375fbec4fd715b14319159ded986"
+    },
+    {
+      "path": "site/assets/en_guide_connection-usb.md.zS7yQngf.js",
+      "bytes": 2810,
+      "sha256": "2d86592b27d8349275da5328e5aef7eefba97473cfb53482ebf15b5e160e8d14"
+    },
+    {
+      "path": "site/assets/en_guide_connection-usb.md.zS7yQngf.lean.js",
+      "bytes": 580,
+      "sha256": "a7a9fd2ecb50747a03ea7a87e60f5bbb92b9c22f0b93f9d614df4c57c65b3f82"
+    },
+    {
+      "path": "site/assets/en_guide_installation.md.C4nZYKPt.js",
+      "bytes": 4605,
+      "sha256": "df4176807eb7d73852377e6c2752fc4fc27c1ae93529f0af5535767da2409bd0"
+    },
+    {
+      "path": "site/assets/en_guide_installation.md.C4nZYKPt.lean.js",
+      "bytes": 582,
+      "sha256": "2065887a08874b2e7d663105ee31be938950c7be7a03fa78eb2799a8e07d82d9"
+    },
+    {
+      "path": "site/assets/en_guide_privacy.md.C7v32KKX.js",
+      "bytes": 3224,
+      "sha256": "5046030488222ba7f61d76506d62c36ef1e5292e577993aba208628b24643f9a"
+    },
+    {
+      "path": "site/assets/en_guide_privacy.md.C7v32KKX.lean.js",
+      "bytes": 599,
+      "sha256": "f81ccf8be5de61de3d223b1123476e126a068dda8bf1b220f74cabcfb8131abd"
+    },
+    {
+      "path": "site/assets/en_guide_quickstart.md.Zb6v9255.js",
+      "bytes": 3749,
+      "sha256": "8d691a2b0027e2c244ce12920460144f683c22f55974b3cea0b026e75345c34f"
+    },
+    {
+      "path": "site/assets/en_guide_quickstart.md.Zb6v9255.lean.js",
+      "bytes": 568,
+      "sha256": "dbe9953a0a218d7f14cc49b448399a39964299f3a3294dc32bfb50adef55d875"
+    },
+    {
+      "path": "site/assets/en_index.md.CL8R4I_C.js",
+      "bytes": 4142,
+      "sha256": "4a8d9350eb4df692ff9daa3ffb652451b1a5df641d3d29a0edc08ad9c4b4b240"
+    },
+    {
+      "path": "site/assets/en_index.md.CL8R4I_C.lean.js",
+      "bytes": 958,
+      "sha256": "ba53b488fe85c1c1c50a8cc25bd325a41e02e1994c7b390b1f9b434ac670bfa0"
+    },
+    {
+      "path": "site/assets/en_integrations_codex.md.CzjXgrI2.js",
+      "bytes": 5810,
+      "sha256": "f2c3bde6351a4fb21752d007f95e3cb687a28a796e9d5a9f36d7ad96870a23f9"
+    },
+    {
+      "path": "site/assets/en_integrations_codex.md.CzjXgrI2.lean.js",
+      "bytes": 602,
+      "sha256": "dcad2d200d610fbfb1ce1c118c3d4ec34851b72c3d5b3f4dcceb30bb38080bc0"
+    },
+    {
+      "path": "site/assets/en_reference_cli.md.C5KlgLIZ.js",
+      "bytes": 4607,
+      "sha256": "6acb32909e51fde85a3f1ec0db0133f625c7b4789b0f12e4e26e9267be1a9423"
+    },
+    {
+      "path": "site/assets/en_reference_cli.md.C5KlgLIZ.lean.js",
+      "bytes": 567,
+      "sha256": "086732f21d8c0a5f69e099154c3b97d450ab8eec2d212d74c0cbaf0fa68de7e7"
+    },
+    {
+      "path": "site/assets/en_reference_configuration.md.C9cKXGne.js",
+      "bytes": 3852,
+      "sha256": "a7e9cdb98ff1af9c452b6cc1101686386612b821debdf56bd34e1a9030aabfe2"
+    },
+    {
+      "path": "site/assets/en_reference_configuration.md.C9cKXGne.lean.js",
+      "bytes": 632,
+      "sha256": "7b0fc443500ca4a33d197afbf2a21891e049dbd7937d5574bf3b19719597a50e"
+    },
+    {
+      "path": "site/assets/en_reference_diagnosis.md.ExtKhuBP.js",
+      "bytes": 3262,
+      "sha256": "d78dfb022d02310af476d6fd049f1c15c1c89bdcf986710dd83cd9533f22d968"
+    },
+    {
+      "path": "site/assets/en_reference_diagnosis.md.ExtKhuBP.lean.js",
+      "bytes": 612,
+      "sha256": "14e0a6df75a2bfa15ed9be90aceacb8055b06e922af24a457db5e2f68623cfd8"
+    },
+    {
+      "path": "site/assets/en_reference_events.md.Dt2KKfL2.js",
+      "bytes": 3350,
+      "sha256": "60a7b6a9a3a81e6a09a91664ff6260298fcfa3af6d753f739e36997b4c67e292"
+    },
+    {
+      "path": "site/assets/en_reference_events.md.Dt2KKfL2.lean.js",
+      "bytes": 578,
+      "sha256": "8936fb67c436f0b72a1627aa577ce536ea9e3b1fa70f8574f1d34153fc79a4c8"
+    },
+    {
+      "path": "site/assets/en_reference_incidents.md.CJHeaAD3.js",
+      "bytes": 2718,
+      "sha256": "ead97849aa2aade780e5969ae775171d2be40442623ba4bd8b3f56e266884e79"
+    },
+    {
+      "path": "site/assets/en_reference_incidents.md.CJHeaAD3.lean.js",
+      "bytes": 604,
+      "sha256": "4a93ff497a9eb9d28ef40e41629c0b8ba9820714867ddfa0ca666d261c6cd6a2"
+    },
+    {
+      "path": "site/assets/en_reference_mcp.md.C_4Y_9Zt.js",
+      "bytes": 2727,
+      "sha256": "61e8a180a16153e9d734f8c44a8a4034b8e7c62267f6274145fdab98be8fe350"
+    },
+    {
+      "path": "site/assets/en_reference_mcp.md.C_4Y_9Zt.lean.js",
+      "bytes": 549,
+      "sha256": "f1c3b3c2a01a86688ace382572284267db7ab1dd49dcf0bd159e5c78946ebc9a"
+    },
+    {
+      "path": "site/assets/en_sdk_android.md.ca2vH7Zr.js",
+      "bytes": 5907,
+      "sha256": "afedcae93f874b28fbc7ea22707479c7162dfc51c039b612649584d2510cc14a"
+    },
+    {
+      "path": "site/assets/en_sdk_android.md.ca2vH7Zr.lean.js",
+      "bytes": 576,
+      "sha256": "0276e244470f727fe053d40df35d4452025d78f92df60654308d97d14d0d929a"
+    },
+    {
+      "path": "site/assets/en_sdk_h5.md.DnQAmMtX.js",
+      "bytes": 5386,
+      "sha256": "75f25f58097b36b9a6c13044d68a6dd40b53c1bc40aa89908fc1820613f0695d"
+    },
+    {
+      "path": "site/assets/en_sdk_h5.md.DnQAmMtX.lean.js",
+      "bytes": 545,
+      "sha256": "6fb98e6cf6721371bb7ef644c020c2b679c6e35af2a4d3b428df38a7ab916dce"
+    },
+    {
+      "path": "site/assets/en_sdk_harmonyos.md.CxKCul99.js",
+      "bytes": 7266,
+      "sha256": "142b7e37b299504f91580cb7fa76313335bb4aab17372f807edaf98abc0ecdb8"
+    },
+    {
+      "path": "site/assets/en_sdk_harmonyos.md.CxKCul99.lean.js",
+      "bytes": 586,
+      "sha256": "aa107cda626547ea75b208e3dffa123990ae4afff65abf8d2913cadf1faacda5"
+    },
+    {
+      "path": "site/assets/en_sdk_ios.md.7f7cb7Ll.js",
+      "bytes": 8345,
+      "sha256": "6390618865ab6c5c2ed2beea9f5983eb4db86e1829bf5da457692ab2261cc7ca"
+    },
+    {
+      "path": "site/assets/en_sdk_ios.md.7f7cb7Ll.lean.js",
+      "bytes": 544,
+      "sha256": "2419a7fe3464be56dd5856a6defb6df91bed473eb14aa1068abcd4bf1c50856e"
+    },
+    {
+      "path": "site/assets/en_sdk_javascript.md.BidJFOEa.js",
+      "bytes": 7217,
+      "sha256": "a16afe02b42c8040ccbad0a3077ff83c87deb9734e31f5b5f175a1705703133a"
+    },
+    {
+      "path": "site/assets/en_sdk_javascript.md.BidJFOEa.lean.js",
+      "bytes": 581,
+      "sha256": "3fc25f3171a86430f347d43816d16998d6193497bde542e122bcbcfde759e13a"
+    },
+    {
+      "path": "site/assets/en_sdk_wechat.md.BmSEO2hp.js",
+      "bytes": 5707,
+      "sha256": "68e69209f4cf726cac4028457be0948d246689462cbd17d70837e138d74887ff"
+    },
+    {
+      "path": "site/assets/en_sdk_wechat.md.BmSEO2hp.lean.js",
+      "bytes": 533,
+      "sha256": "233c8968c3036459ef05534b96f3de9a1e7b8169bd419c5e1a8885f5424a7d92"
+    },
+    {
+      "path": "site/assets/en_troubleshooting_index.md.Dtfh8OmB.js",
+      "bytes": 2922,
+      "sha256": "db4cb62f1213113af265f2f817225545ceed7ad97c0e413f91a95699eaf59c27"
+    },
+    {
+      "path": "site/assets/en_troubleshooting_index.md.Dtfh8OmB.lean.js",
+      "bytes": 602,
+      "sha256": "2e5971bdb95cc59089ac688a64af18b70dfaaa345434bb0a300e6e9c7589383b"
+    },
+    {
+      "path": "site/assets/en_tutorials_diagnosis.md.BeXebmkw.js",
+      "bytes": 3714,
+      "sha256": "b1037dd2e9b9abea04857664746d2002f869e7d268fed46cfc7763a88a612b8f"
+    },
+    {
+      "path": "site/assets/en_tutorials_diagnosis.md.BeXebmkw.lean.js",
+      "bytes": 629,
+      "sha256": "acba39a81fc26128060eb37b1b3ff69b8b509336ee75e811e12cf3ad176c727f"
+    },
+    {
+      "path": "site/assets/en_tutorials_first-capture.md.UF2ybJU7.js",
+      "bytes": 7226,
+      "sha256": "5eebe59f04a55a2fd8a6fd876598ce0944c837aff26bf7cbad0c1435dfc89f0f"
+    },
+    {
+      "path": "site/assets/en_tutorials_first-capture.md.UF2ybJU7.lean.js",
+      "bytes": 621,
+      "sha256": "bb4b60ceb615d8c66eec3c9806ddcdebe31420bca54382c6c0d35f5010a6085d"
+    },
+    {
+      "path": "site/assets/index.md.FGnWu_Vh.js",
+      "bytes": 1284,
+      "sha256": "92f7ea486a4ea8caac7e6f90ccd22c8e72f042e14e0429d794d6884cd21c45eb"
+    },
+    {
+      "path": "site/assets/index.md.FGnWu_Vh.lean.js",
+      "bytes": 452,
+      "sha256": "2b52ef377c599e45af9c0cffab282ff6f9c53d55d39626ec4137cb484d875475"
+    },
+    {
+      "path": "site/assets/inspector-synthetic.svg",
+      "bytes": 2866,
+      "sha256": "ef04cdc2d8fa3598f909e536ef2ea6171611145cc93e7375a031b3a531cc3dd6"
+    },
+    {
+      "path": "site/assets/mark.svg",
+      "bytes": 249,
+      "sha256": "fc1e9804a546ba9ec716271abff8b7e1d322f1fb5a1ce65c2f472a4568d34ca9"
+    },
+    {
+      "path": "site/assets/style.CM2sPGUK.css",
+      "bytes": 104873,
+      "sha256": "d949b3a0510e69a4f603b54354010accfc18804fbdc0a7922fd019a1f2d59ae9"
+    },
+    {
+      "path": "site/assets/zh_guide_capture-model.md._pi1GVtR.js",
+      "bytes": 2569,
+      "sha256": "c29c2ee5b3a0a8a7ca04da5d7ae89b221ece6205a7222348e11ae68139480dcf"
+    },
+    {
+      "path": "site/assets/zh_guide_capture-model.md._pi1GVtR.lean.js",
+      "bytes": 585,
+      "sha256": "d3db3be572a8d5d4e0ca5ddf4e8fd41513a704a8e4d6f5ca2d75b1c5b9a0ba85"
+    },
+    {
+      "path": "site/assets/zh_guide_compatibility.md.WVOzRzGd.js",
+      "bytes": 3275,
+      "sha256": "5ea07c1d594e3d3f6dd0557917b8e678db5df8621769d924e4c0f9dfc3715352"
+    },
+    {
+      "path": "site/assets/zh_guide_compatibility.md.WVOzRzGd.lean.js",
+      "bytes": 572,
+      "sha256": "13e50891ed40b3074417a1fbb8083dcbdb8f96f702ca87c38f2de51e81e1f060"
+    },
+    {
+      "path": "site/assets/zh_guide_connection-lan.md._02v4Acx.js",
+      "bytes": 2885,
+      "sha256": "62e9c5d761d5b5b7c6b2ee4bc84023afea24ff57dcad244597085e006c8774b7"
+    },
+    {
+      "path": "site/assets/zh_guide_connection-lan.md._02v4Acx.lean.js",
+      "bytes": 636,
+      "sha256": "8b8065ebc301d41e793429032345c9cfa50069157caf530f7f825e58ce5e94b9"
+    },
+    {
+      "path": "site/assets/zh_guide_connection-usb.md.BiOuNVKH.js",
+      "bytes": 2622,
+      "sha256": "17d1a98250fe439b7f1986fe91dc5d898b02ee81698e61602a040dd97de080cc"
+    },
+    {
+      "path": "site/assets/zh_guide_connection-usb.md.BiOuNVKH.lean.js",
+      "bytes": 608,
+      "sha256": "d1243ed1dc143e38fa802dea2c9f08144d116502e1d981241173d68a060bcb02"
+    },
+    {
+      "path": "site/assets/zh_guide_installation.md.tOWdEQCl.js",
+      "bytes": 4280,
+      "sha256": "34e8778847c33a35666780ec1cb5646a4d52ed42280275086d137f84c6078b2a"
+    },
+    {
+      "path": "site/assets/zh_guide_installation.md.tOWdEQCl.lean.js",
+      "bytes": 558,
+      "sha256": "892c85f589803036127358f21daccc8f173c28018f68d3c0fc0115e9bb6b3d22"
+    },
+    {
+      "path": "site/assets/zh_guide_privacy.md.BVBqamNK.js",
+      "bytes": 2823,
+      "sha256": "396438b344730791f31ccdb9c5722aa38297c29e4c16c500d05756b8c91b335c"
+    },
+    {
+      "path": "site/assets/zh_guide_privacy.md.BVBqamNK.lean.js",
+      "bytes": 579,
+      "sha256": "b712dbb8aa5e945ff1c09e296aef2d33690eb8ec111bc87e41333477214cf10a"
+    },
+    {
+      "path": "site/assets/zh_guide_quickstart.md.2V2_xgCH.js",
+      "bytes": 3578,
+      "sha256": "710be6fb7db3c61611bcfe4400d5e93897018057458c000f26ecad09149112ed"
+    },
+    {
+      "path": "site/assets/zh_guide_quickstart.md.2V2_xgCH.lean.js",
+      "bytes": 576,
+      "sha256": "9ae242ca7fb4e327e64217b97725b1a92b4855ae80a5aa3b038d7f46c069cc77"
+    },
+    {
+      "path": "site/assets/zh_index.md.ClfsmTP6.js",
+      "bytes": 4067,
+      "sha256": "1deebbf462aadf1448256dfaa1b26e15611df4b2fd67c0fa3d6abea8a493ec0e"
+    },
+    {
+      "path": "site/assets/zh_index.md.ClfsmTP6.lean.js",
+      "bytes": 1025,
+      "sha256": "01b62fe3e9ebe4f22a676f7d9e1284aaf563d945dd9bba3fe79d32a7822b449d"
+    },
+    {
+      "path": "site/assets/zh_integrations_codex.md.DkWurFOm.js",
+      "bytes": 5504,
+      "sha256": "06059d41bad8527270ad7a0b89bf24b562a23aaf3bb90f73679b303a7a4a6fe0"
+    },
+    {
+      "path": "site/assets/zh_integrations_codex.md.DkWurFOm.lean.js",
+      "bytes": 582,
+      "sha256": "c84d4f3a0391d854c10e2c6c2e3bd6399ef3f5bd4731e0ff6556662ba5f4eba2"
+    },
+    {
+      "path": "site/assets/zh_reference_cli.md.BdXaH9zc.js",
+      "bytes": 4373,
+      "sha256": "c54074c8d100825574b33547eb108bc9e7dd6aa2907fb2fc91ea06648e868a4b"
+    },
+    {
+      "path": "site/assets/zh_reference_cli.md.BdXaH9zc.lean.js",
+      "bytes": 559,
+      "sha256": "3c635ab4f6e5e99229272325b7d2bd0a4140bf4943297e467f307a38dad473aa"
+    },
+    {
+      "path": "site/assets/zh_reference_configuration.md.DbtER5zM.js",
+      "bytes": 3498,
+      "sha256": "24aa8844e351a008415dcf7d9438c6a05f11fd127cb1128b8ade21da6a428391"
+    },
+    {
+      "path": "site/assets/zh_reference_configuration.md.DbtER5zM.lean.js",
+      "bytes": 608,
+      "sha256": "a015ce0565485eeaf8c210466e65a3ea315729958778303afafa000d94e20668"
+    },
+    {
+      "path": "site/assets/zh_reference_diagnosis.md.X_Ovh5IS.js",
+      "bytes": 2826,
+      "sha256": "04e639c1a2a475ce5a75529898e800f4aed3cec1736cc950a0a8f88c4505ffd4"
+    },
+    {
+      "path": "site/assets/zh_reference_diagnosis.md.X_Ovh5IS.lean.js",
+      "bytes": 603,
+      "sha256": "8a53c206e89ba59a5582b1012250e289c4369d7a413118b38a245e4dfc66dbca"
+    },
+    {
+      "path": "site/assets/zh_reference_events.md.BwGfu2Nw.js",
+      "bytes": 3042,
+      "sha256": "9ccb29858a4b0c665cc53a68d336265b5ebb82a1faa1346bf08a25db0567f87e"
+    },
+    {
+      "path": "site/assets/zh_reference_events.md.BwGfu2Nw.lean.js",
+      "bytes": 575,
+      "sha256": "2b7cfc2533e8777bf34a89c5e4e389fc8fb9ce4874ac635681a371f706c91612"
+    },
+    {
+      "path": "site/assets/zh_reference_incidents.md.Bqum-fxZ.js",
+      "bytes": 2363,
+      "sha256": "97d557dd49d9ad8f9207060709a04e9e8d4632887ff58f38d946c26a874418f8"
+    },
+    {
+      "path": "site/assets/zh_reference_incidents.md.Bqum-fxZ.lean.js",
+      "bytes": 584,
+      "sha256": "d83b9f657f4b04b269b9e79799b8781b0b262166e7c738086f4f1ba8d793558e"
+    },
+    {
+      "path": "site/assets/zh_reference_mcp.md.Dz6rdD7G.js",
+      "bytes": 2532,
+      "sha256": "e5a781803caf7deb84113bd1f2dcd3c1c3f571fe2c8d3342c99f88529ec51303"
+    },
+    {
+      "path": "site/assets/zh_reference_mcp.md.Dz6rdD7G.lean.js",
+      "bytes": 558,
+      "sha256": "7584cb98daa5dea9576997720ab09888e434a3d6855eed3386ade291594c2368"
+    },
+    {
+      "path": "site/assets/zh_sdk_android.md.B_03qR0V.js",
+      "bytes": 5733,
+      "sha256": "a244b8d5cc52c0dfd67a96c7f4b5f5d63ef4b52bb64118f2bfe63bd019d3a6ae"
+    },
+    {
+      "path": "site/assets/zh_sdk_android.md.B_03qR0V.lean.js",
+      "bytes": 576,
+      "sha256": "1fd1e41a1b56cf200941c1b17877b1e5f0ecf3fb03aa2575799c56aba2b35ef4"
+    },
+    {
+      "path": "site/assets/zh_sdk_h5.md.D6gY8k-i.js",
+      "bytes": 5198,
+      "sha256": "b8e8caac314492110e2913deccb06444c00359f0cfc1e522732493b19637d2da"
+    },
+    {
+      "path": "site/assets/zh_sdk_h5.md.D6gY8k-i.lean.js",
+      "bytes": 553,
+      "sha256": "1639c736edfa125c8131ff8ffbb288872295acb81af2e25dc971648b487e6337"
+    },
+    {
+      "path": "site/assets/zh_sdk_harmonyos.md.1rsqA2b_.js",
+      "bytes": 7065,
+      "sha256": "315a8a6fad281e352e80049c3be73784f275f28a001bd5b4c3e5d9fc40599a55"
+    },
+    {
+      "path": "site/assets/zh_sdk_harmonyos.md.1rsqA2b_.lean.js",
+      "bytes": 586,
+      "sha256": "3a469d84408371890cdeaef41ccd748d811235e744f282d6f718c546def53a26"
+    },
+    {
+      "path": "site/assets/zh_sdk_ios.md.PpfgRmfu.js",
+      "bytes": 8149,
+      "sha256": "c5618fb70d26b88667f0c79df29a6feea98f00b853c977bffb354eeeb6b4d309"
+    },
+    {
+      "path": "site/assets/zh_sdk_ios.md.PpfgRmfu.lean.js",
+      "bytes": 544,
+      "sha256": "2cc477a3e62736ea72e99e6ed95411380a27cb906f6260f9921eb17f6334ac1f"
+    },
+    {
+      "path": "site/assets/zh_sdk_javascript.md.DJ8j4Zq1.js",
+      "bytes": 7072,
+      "sha256": "9dd89bc263a5f7b6b95e45d7409afb6b94436dfd52b4caeb50981d5af5ae8ffa"
+    },
+    {
+      "path": "site/assets/zh_sdk_javascript.md.DJ8j4Zq1.lean.js",
+      "bytes": 589,
+      "sha256": "a5e298c0a9588fccfe5b008dfdcd0796f005c656376f527c23ac7f492adbb056"
+    },
+    {
+      "path": "site/assets/zh_sdk_wechat.md.BA8vA7lG.js",
+      "bytes": 5580,
+      "sha256": "1c0f1f1ebfe45ce1992b08fc4d81ee1f654c1e7967308863fc9a7a69f4292ef9"
+    },
+    {
+      "path": "site/assets/zh_sdk_wechat.md.BA8vA7lG.lean.js",
+      "bytes": 569,
+      "sha256": "4461501e662bafcea8f07211c1755ca89ede5c9e29f86004d52ab5af67bdb282"
+    },
+    {
+      "path": "site/assets/zh_troubleshooting_index.md.BDbZ7muP.js",
+      "bytes": 2621,
+      "sha256": "d4f731f385a17ff05bc7138e0e3bd32e2a2c67b35ad6bd5223f12cd8adff0c04"
+    },
+    {
+      "path": "site/assets/zh_troubleshooting_index.md.BDbZ7muP.lean.js",
+      "bytes": 590,
+      "sha256": "cada37cd000a3a11d330719870645db3f22f1c1e51dc214e0fee9b26bfcd5504"
+    },
+    {
+      "path": "site/assets/zh_tutorials_diagnosis.md.NS6diSK7.js",
+      "bytes": 3356,
+      "sha256": "9c34d7134bbf0115d9038d1d8348422b749024e7d9c4dcdde294b05731bc0df8"
+    },
+    {
+      "path": "site/assets/zh_tutorials_diagnosis.md.NS6diSK7.lean.js",
+      "bytes": 609,
+      "sha256": "bab617430bd2ac3cb3234a6691c07906bc260c8b5b1719c8e1c2c25c4996eb1a"
+    },
+    {
+      "path": "site/assets/zh_tutorials_first-capture.md.FW0NxUdL.js",
+      "bytes": 6894,
+      "sha256": "9ccab5733dffd895c95ad735636d90edaad1d52aee8ad5faaf3f567077b28f87"
+    },
+    {
+      "path": "site/assets/zh_tutorials_first-capture.md.FW0NxUdL.lean.js",
+      "bytes": 609,
+      "sha256": "96f7c2528fa5e315f6f69e617cdbfccd9657d0b1bb7d1aecc5636039371b4c9d"
+    },
+    {
+      "path": "site/build-info.json",
+      "bytes": 321,
+      "sha256": "13b05e154713eb923a2927e20aba74a9e2e8e6e44e7c89df5c0fc4af85cd2ef2"
+    },
+    {
+      "path": "site/en/guide/capture-model.html",
+      "bytes": 29384,
+      "sha256": "54e03df1b50d97f3adffb404743d1ca37c2357667be3535d7c0ebe8a25d74484"
+    },
+    {
+      "path": "site/en/guide/compatibility.html",
+      "bytes": 30139,
+      "sha256": "255eee3c8447f502113cc3ea2188714937e99b11429b4dd5ca93fb347cc34812"
+    },
+    {
+      "path": "site/en/guide/connection-lan.html",
+      "bytes": 29544,
+      "sha256": "4e0f9521c9994f4935beb0a0381a7e9cb53fb9f4ea76b31988dd16b845d05e9d"
+    },
+    {
+      "path": "site/en/guide/connection-usb.html",
+      "bytes": 29340,
+      "sha256": "3a001789282b4c5abdfc91b0ec37d8ae00f961128ac8e824acd0aa40ec303be4"
+    },
+    {
+      "path": "site/en/guide/installation.html",
+      "bytes": 31122,
+      "sha256": "8ba947aa2141446d3d9a489762182ceb13daa16826310a5274196d709a5522ef"
+    },
+    {
+      "path": "site/en/guide/privacy.html",
+      "bytes": 29735,
+      "sha256": "cfab7d14b4a3ae9bcddc8ea9b1fefb416a67eafed1cb3d597f3a97ae80f41c76"
+    },
+    {
+      "path": "site/en/guide/quickstart.html",
+      "bytes": 30051,
+      "sha256": "3eeac95795c232edc3b02f00f705777e016bb54ea1b87250712850e3de0ba467"
+    },
+    {
+      "path": "site/en/index.html",
+      "bytes": 19570,
+      "sha256": "b42ea3397e3a07b8a79f89c3fde7ac6654006cf2c7ca91c556b0ac9c4b0727f0"
+    },
+    {
+      "path": "site/en/integrations/codex.html",
+      "bytes": 32314,
+      "sha256": "137b2b3d7130abf34957491d117c4b14b0198cbf4b13dac090413383cb49a4a5"
+    },
+    {
+      "path": "site/en/reference/cli.html",
+      "bytes": 31135,
+      "sha256": "6c44565ab4902ed91e8827274d3a0a7b2a4c5ff925ead026acf0d27da1d02735"
+    },
+    {
+      "path": "site/en/reference/configuration.html",
+      "bytes": 30353,
+      "sha256": "b2f45a24da853be7ec43531fe0965abb079d20674fa968401983f9a79adee1df"
+    },
+    {
+      "path": "site/en/reference/diagnosis.html",
+      "bytes": 29787,
+      "sha256": "c5c6d7a7819290a31004956187ea51b6fa61a656caec6be09891c1a48e70234d"
+    },
+    {
+      "path": "site/en/reference/events.html",
+      "bytes": 29885,
+      "sha256": "cd9a4844613494486f305953b0dd671e12ce3b78ee313ac641a531df74b2b41e"
+    },
+    {
+      "path": "site/en/reference/incidents.html",
+      "bytes": 29235,
+      "sha256": "a15c1e1f3748b4461c75075197e17cb2ef9dff6e44bb24b4e571ff0bb07f705a"
+    },
+    {
+      "path": "site/en/reference/mcp.html",
+      "bytes": 29272,
+      "sha256": "b751557c457e3a08ddc6f0b6ec83be5e1a34118f49fbbcab1860db2b9c6dd1df"
+    },
+    {
+      "path": "site/en/sdk/android.html",
+      "bytes": 32414,
+      "sha256": "c82805efd3ab5acd1e4178fdbf3d3a0563ebfaf50ffec2c7d717ae8d6e7be685"
+    },
+    {
+      "path": "site/en/sdk/h5.html",
+      "bytes": 31903,
+      "sha256": "68a64e4c853ff5c11fee8ac40d5d8c4a3fd43d031fb16052c54858757a31effe"
+    },
+    {
+      "path": "site/en/sdk/harmonyos.html",
+      "bytes": 33783,
+      "sha256": "1d8d8fcf038a6ecdb530db0266c7ab14023e05261840dd45d02f9021cd8a48a5"
+    },
+    {
+      "path": "site/en/sdk/ios.html",
+      "bytes": 34861,
+      "sha256": "defe99f3b84498dd9c4fad68df6028cc6f2c0cf10214cb095f63e0234ffcf0d7"
+    },
+    {
+      "path": "site/en/sdk/javascript.html",
+      "bytes": 33733,
+      "sha256": "1efbc466d805488d7add72e4ffa68913db7967fbbb2f29d8c20daa2f5129190d"
+    },
+    {
+      "path": "site/en/sdk/wechat.html",
+      "bytes": 32223,
+      "sha256": "0f24771552ce5a6dc193f32ee4e22e0578b67a1ac323f495850bdda262da68c1"
+    },
+    {
+      "path": "site/en/troubleshooting/index.html",
+      "bytes": 29183,
+      "sha256": "ceda8c9f6f96939fefafc31ece0669862601549a49d46915af311bb520e322d5"
+    },
+    {
+      "path": "site/en/tutorials/diagnosis.html",
+      "bytes": 29995,
+      "sha256": "f1f98db8afdc2d17eafad0c9e638f1f8944d3fe596bd403d31065c3a70975ad3"
+    },
+    {
+      "path": "site/en/tutorials/first-capture.html",
+      "bytes": 33746,
+      "sha256": "4be728a336abd44d92bfaac63b64519e8cad72213f3d70c4dde0278ab55acbaa"
+    },
+    {
+      "path": "site/hashmap.json",
+      "bytes": 1754,
+      "sha256": "e5bf2428b66de3bfbefb8779ad4a865bd60758275cdf1f94f9a5ce2e165fd1c4"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 13728,
+      "sha256": "33433a3a818080e41b84d9680870719f457a0448fdad1cbd6fe6e38981995320"
+    },
+    {
+      "path": "site/llms.txt",
+      "bytes": 9305,
+      "sha256": "348a947fa81b648ba0de6c3670c588dc45a7c0457147b4fa2b82e6d637794eac"
+    },
+    {
+      "path": "site/markdown/en/guide/capture-model.md",
+      "bytes": 1704,
+      "sha256": "854ad6514c40e40e729299f486435f512c52eb744f8791b3a340fd3b4242924e"
+    },
+    {
+      "path": "site/markdown/en/guide/compatibility.md",
+      "bytes": 2285,
+      "sha256": "0bdca6e9fe40a205f11c0601427db0e5ce4b2662147e35e0d2a3b6318e9a4ec4"
+    },
+    {
+      "path": "site/markdown/en/guide/connection-lan.md",
+      "bytes": 1791,
+      "sha256": "7a43e2f4db2d03877187c1a68a5fc410f4ac705244380f3b131b34b15b894529"
+    },
+    {
+      "path": "site/markdown/en/guide/connection-usb.md",
+      "bytes": 1679,
+      "sha256": "8e648a1e308580a6749318f3feba57c8fda88fcc202653c01fa63112532553d8"
+    },
+    {
+      "path": "site/markdown/en/guide/installation.md",
+      "bytes": 2023,
+      "sha256": "387cf97f8c295bd975a21e09d07804b7b02c9cac295668206ddc2d94e0a43acb"
+    },
+    {
+      "path": "site/markdown/en/guide/privacy.md",
+      "bytes": 1908,
+      "sha256": "0c88ed8c84f3733eabd8096027772eb7fcd723f51782653ed149e06c907598af"
+    },
+    {
+      "path": "site/markdown/en/guide/quickstart.md",
+      "bytes": 1461,
+      "sha256": "2036348f87dde5b10397709d3916aa88efd45bd3808bb17ac3cc7f5f1e13ae4f"
+    },
+    {
+      "path": "site/markdown/en/index.md",
+      "bytes": 2110,
+      "sha256": "6f70e51ae829ebacb292a117439da9e594c30ed19752564a574eca4804063814"
+    },
+    {
+      "path": "site/markdown/en/integrations/codex.md",
+      "bytes": 2486,
+      "sha256": "87e9f55c8672dd6bffad596c8a9b366ff9782e702f2124c00a348f1bff6c2123"
+    },
+    {
+      "path": "site/markdown/en/reference/cli.md",
+      "bytes": 2590,
+      "sha256": "6c1ab767e6b58e8f7632c38344a0f37b4b73323619ff46e75fcc082be4ed7758"
+    },
+    {
+      "path": "site/markdown/en/reference/configuration.md",
+      "bytes": 1749,
+      "sha256": "b5c662b9d0cf16f7ac204e3eb6d095e32a3860992827fc74a3d75b0cdcdad584"
+    },
+    {
+      "path": "site/markdown/en/reference/diagnosis.md",
+      "bytes": 2002,
+      "sha256": "6e9efd73f4486f3785f6b23241adef032cd261fd73c11755c2882ccb4e3425b2"
+    },
+    {
+      "path": "site/markdown/en/reference/events.md",
+      "bytes": 1977,
+      "sha256": "7dc181b88eff44e5a0852edba7a873507ddbf78c3809acc0ab3194f2aff51d84"
+    },
+    {
+      "path": "site/markdown/en/reference/incidents.md",
+      "bytes": 1691,
+      "sha256": "c2e49d4a65c7de492c4c6a0411c5fce6149e3915c4eed1de1cbd3dcb3cd9a03c"
+    },
+    {
+      "path": "site/markdown/en/reference/mcp.md",
+      "bytes": 1682,
+      "sha256": "a68f210bd7a89f3e640ded11a910134be233f7eda92a2f14efb03d1f2a909413"
+    },
+    {
+      "path": "site/markdown/en/sdk/android.md",
+      "bytes": 1785,
+      "sha256": "f0185f48accb9dc234d1372a9900a1434ba477a3177c6d91ec78314b720f13c0"
+    },
+    {
+      "path": "site/markdown/en/sdk/h5.md",
+      "bytes": 1756,
+      "sha256": "e6d453a465d11a08a12411ba4d878b9800a349987b6a3ba0bb1d35f4b6b3d575"
+    },
+    {
+      "path": "site/markdown/en/sdk/harmonyos.md",
+      "bytes": 1833,
+      "sha256": "f2a6f581f003181ec7b1f047a1ec2fbe5971ccd86196f23c3bab60cc0c57aa64"
+    },
+    {
+      "path": "site/markdown/en/sdk/ios.md",
+      "bytes": 1811,
+      "sha256": "0e983f8bbf52d1b032176cacd223334af8c8fa2a84232afa0d90c550b4272b3e"
+    },
+    {
+      "path": "site/markdown/en/sdk/javascript.md",
+      "bytes": 1626,
+      "sha256": "e4fbf0ecfcc137c7a0a3548a82bb64d3e29c47d137c7ae27ca9bf98b7cb9bb26"
+    },
+    {
+      "path": "site/markdown/en/sdk/wechat.md",
+      "bytes": 1797,
+      "sha256": "bca239294cf773d4fb7617e8164fe5e492a016b3ff4da28f7116882d5e126a49"
+    },
+    {
+      "path": "site/markdown/en/troubleshooting/index.md",
+      "bytes": 1838,
+      "sha256": "b596d0bee0c0fb6f259cf1391c279336a0ac2bde2a2b72c76ceeee6b10739eac"
+    },
+    {
+      "path": "site/markdown/en/tutorials/diagnosis.md",
+      "bytes": 1840,
+      "sha256": "242e9f8e38a85c556d03de0d6d0639378ce9221ec14e6254c7f1f2e1e5e35d9d"
+    },
+    {
+      "path": "site/markdown/en/tutorials/first-capture.md",
+      "bytes": 2025,
+      "sha256": "fd44a1b1ba9f2c2d704152a6a4b1143c02d0bc3bfed16e89b42610cc5e696e42"
+    },
+    {
+      "path": "site/markdown/index.md",
+      "bytes": 5393,
+      "sha256": "927df2c602b5d76259222dc1a54f7f6f79aabd09aef2b9203feaf4f864a618e8"
+    },
+    {
+      "path": "site/markdown/zh/guide/capture-model.md",
+      "bytes": 1438,
+      "sha256": "9f50a1950f3cf08e7a148331f1da0c95dd4a45de5b36d0bc79aaff2806cf0e12"
+    },
+    {
+      "path": "site/markdown/zh/guide/compatibility.md",
+      "bytes": 2026,
+      "sha256": "dd0b8035e07a8ee6ab6a30d1ec3c4712210e32b6245c7e70217a1fda28a9b206"
+    },
+    {
+      "path": "site/markdown/zh/guide/connection-lan.md",
+      "bytes": 1621,
+      "sha256": "c7250411ae82f14a1959cab5e936190fb195ab2db90b83bf2f963273bb522602"
+    },
+    {
+      "path": "site/markdown/zh/guide/connection-usb.md",
+      "bytes": 1464,
+      "sha256": "0b134de8db3731e2722a8c23c62e64989d30f6bd988f532d4af424cdb5240d3c"
+    },
+    {
+      "path": "site/markdown/zh/guide/installation.md",
+      "bytes": 1779,
+      "sha256": "da7117f055fae9a898d60d2b4ea0a9f1a9d9d6c605ac44b41a96a13f23fc6338"
+    },
+    {
+      "path": "site/markdown/zh/guide/privacy.md",
+      "bytes": 1587,
+      "sha256": "fe371b7cd9624c3f38ca99e0ea6b0142b2cc75fabe28c3f38c908c069c25b889"
+    },
+    {
+      "path": "site/markdown/zh/guide/quickstart.md",
+      "bytes": 1328,
+      "sha256": "de982daa75aa6eb6c35d6f6e8d5bab39033a9fda95bfc959b5c7d7e36b38d30e"
+    },
+    {
+      "path": "site/markdown/zh/index.md",
+      "bytes": 2080,
+      "sha256": "b71c175f335a31fbc674a2913df657f3791d6cfb2482293156eb096430af30ee"
+    },
+    {
+      "path": "site/markdown/zh/integrations/codex.md",
+      "bytes": 2221,
+      "sha256": "f7a5f1d852ac25ece354ec0789d779d87f686ab8faaac4d1c808c9ef5010d784"
+    },
+    {
+      "path": "site/markdown/zh/reference/cli.md",
+      "bytes": 2395,
+      "sha256": "16b3c00f81c27854349a1b12f3b9f8c0915ec43517399655863709647e3a3548"
+    },
+    {
+      "path": "site/markdown/zh/reference/configuration.md",
+      "bytes": 1469,
+      "sha256": "ccca9699e8f19a4fc91b6b7bf6241cd0da11d1a41cf72323d1723ebe3b8663e6"
+    },
+    {
+      "path": "site/markdown/zh/reference/diagnosis.md",
+      "bytes": 1663,
+      "sha256": "bff82de1fe9116e85eef049567566be9839185fc0a841e074f52eec6c92603d8"
+    },
+    {
+      "path": "site/markdown/zh/reference/events.md",
+      "bytes": 1704,
+      "sha256": "26ae9d75289cc4e0432c008bd1afb1dc3b64c0d0faff4e9760b67867ce82afbb"
+    },
+    {
+      "path": "site/markdown/zh/reference/incidents.md",
+      "bytes": 1391,
+      "sha256": "82ea3e2e335f20ab6e7224da901b723bf6f88e84f5c66f085b40bf75da91a722"
+    },
+    {
+      "path": "site/markdown/zh/reference/mcp.md",
+      "bytes": 1501,
+      "sha256": "60d7df2eccc2a06567a0ea178aa3874f11a7ebfba1f9d8a7ef889352bcf9ab88"
+    },
+    {
+      "path": "site/markdown/zh/sdk/android.md",
+      "bytes": 1611,
+      "sha256": "4e6d5ff117f173ac3b8e7aa4e7ebe6973a111111d95a2a6213cc9787793a9126"
+    },
+    {
+      "path": "site/markdown/zh/sdk/h5.md",
+      "bytes": 1562,
+      "sha256": "b16be941cc4cab8596b5f6623915674836f09a1b1a620892ed141a234e1bfe93"
+    },
+    {
+      "path": "site/markdown/zh/sdk/harmonyos.md",
+      "bytes": 1640,
+      "sha256": "102474dbe79d370b3d8034198f96e9e4d8b398f9645f6a6edf3b9f4532197d67"
+    },
+    {
+      "path": "site/markdown/zh/sdk/ios.md",
+      "bytes": 1615,
+      "sha256": "65f9cea90fc1da209c5f9f2a8b0319520b249055a8864e15f5f2dbe5c8e60fc7"
+    },
+    {
+      "path": "site/markdown/zh/sdk/javascript.md",
+      "bytes": 1471,
+      "sha256": "f714839b94bc38c55350bf19503f1435838a06a24e1c415b98a4bd313e34c7a8"
+    },
+    {
+      "path": "site/markdown/zh/sdk/wechat.md",
+      "bytes": 1629,
+      "sha256": "1423e90d8653678a48f2033c1ca08a2ece38102b5bfce610c755fb4587ed2689"
+    },
+    {
+      "path": "site/markdown/zh/troubleshooting/index.md",
+      "bytes": 1561,
+      "sha256": "4d382667831791e2d9ae74bc3f502dc56dcf938aa3b379560e3894f27583e86b"
+    },
+    {
+      "path": "site/markdown/zh/tutorials/diagnosis.md",
+      "bytes": 1537,
+      "sha256": "82b13ec641fb11a3dce2c109c87560b3fd92e0cc5ac60d485b2bf085fb8a06de"
+    },
+    {
+      "path": "site/markdown/zh/tutorials/first-capture.md",
+      "bytes": 1771,
+      "sha256": "0a75c7e9deca626c83e5c573c03d75b3094df2bde7dd6675bba91587c9ede0d6"
+    },
+    {
+      "path": "site/samples/synthetic-capture.jsonl",
+      "bytes": 937,
+      "sha256": "1875733108312d94ac5d725cd925c58ffeba9590a66f7c3c6b860606d3c3eed8"
+    },
+    {
+      "path": "site/sitemap.xml",
+      "bytes": 17473,
+      "sha256": "abeaedb7d9392d033a345a00bf295223dff61e9282ba79c15c91a51d6255b675"
+    },
+    {
+      "path": "site/third-party-notices.txt",
+      "bytes": 313412,
+      "sha256": "d0ed8cb06a5be78cd1806050cc3e943ee8e7563fcbd4a216095b4ffc425c34bd"
+    },
+    {
+      "path": "site/vp-icons.css",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "site/zh/guide/capture-model.html",
+      "bytes": 29071,
+      "sha256": "7c2be1ae7c6527d30dd0abc7bf259da7e17ff8216684d356e444e69ac2769912"
+    },
+    {
+      "path": "site/zh/guide/compatibility.html",
+      "bytes": 29767,
+      "sha256": "bca0fa57aa3225befe629673e7dd9bd5a2eeb00f05461785e4b21c2df96e5cea"
+    },
+    {
+      "path": "site/zh/guide/connection-lan.html",
+      "bytes": 29358,
+      "sha256": "98d47b38ef5d34636ab02cdf23a710168753cf210472268451f1493c35fa4bcc"
+    },
+    {
+      "path": "site/zh/guide/connection-usb.html",
+      "bytes": 29113,
+      "sha256": "cf8428b6d8034f963b4e8d57ad783c22039ac8db14515aa92bfd340ebe59aa49"
+    },
+    {
+      "path": "site/zh/guide/installation.html",
+      "bytes": 30779,
+      "sha256": "65bee22ade9e1c1fa2cf1e22ddb77e1271d9268cec60092a6263e89dbbb8b7c8"
+    },
+    {
+      "path": "site/zh/guide/privacy.html",
+      "bytes": 29321,
+      "sha256": "ad8454b7e9f6a7644d1d172ceac7ec4179cf036277023e1728ef466883828f0e"
+    },
+    {
+      "path": "site/zh/guide/quickstart.html",
+      "bytes": 29846,
+      "sha256": "1f7c505ea3a7e46c87538b3cf001ac3d8b22e4fd2d72048741ec7d97b888d515"
+    },
+    {
+      "path": "site/zh/index.html",
+      "bytes": 19499,
+      "sha256": "8ee6a0ae4e3910b67543447fcfe3843980cd1075e01cda28dd4498667899b1ec"
+    },
+    {
+      "path": "site/zh/integrations/codex.html",
+      "bytes": 31988,
+      "sha256": "56359e2df680d1011fd08f255d037a5876f95898f9d882e9afa05c523e81830b"
+    },
+    {
+      "path": "site/zh/reference/cli.html",
+      "bytes": 30873,
+      "sha256": "cba088013885a3883546447740a143a93b57e3949318d58c1098ca9ad8cedfa0"
+    },
+    {
+      "path": "site/zh/reference/configuration.html",
+      "bytes": 29979,
+      "sha256": "6d3384cdf56c73b8a1c9976ec9dedf21144dcab82a72858ce47ef3014f835032"
+    },
+    {
+      "path": "site/zh/reference/diagnosis.html",
+      "bytes": 29319,
+      "sha256": "a132645bce318cdc2998aa3fb0b2ef1d0cc8c89229322749c5b336464cb2a98c"
+    },
+    {
+      "path": "site/zh/reference/events.html",
+      "bytes": 29540,
+      "sha256": "75a93f992ed1a723f44c82d546f0f98811bac6f43ce3dc2f9b4ddd4beea9a893"
+    },
+    {
+      "path": "site/zh/reference/incidents.html",
+      "bytes": 28859,
+      "sha256": "e43f73ebd9367d9c22ff6dd3962858569aa4d2d58b9b42d068e9828576ea25f5"
+    },
+    {
+      "path": "site/zh/reference/mcp.html",
+      "bytes": 29034,
+      "sha256": "1017ec9e4b0561f8a8289bbb26400575402645a1debc7774501cb4221bc9d39c"
+    },
+    {
+      "path": "site/zh/sdk/android.html",
+      "bytes": 32212,
+      "sha256": "8129576bda92998a2d24ea589e85e0ceb5237f4574230a399e83d58cc2174f5a"
+    },
+    {
+      "path": "site/zh/sdk/h5.html",
+      "bytes": 31694,
+      "sha256": "c6ab430f397f861eab1646da5e12d25b17a41d35bd54fe2357cdb442e4f662c2"
+    },
+    {
+      "path": "site/zh/sdk/harmonyos.html",
+      "bytes": 33549,
+      "sha256": "d3ef8cc4e478478bf4148b40f5f63dd7ec845b4434920a48886c92593dbe691d"
+    },
+    {
+      "path": "site/zh/sdk/ios.html",
+      "bytes": 34646,
+      "sha256": "f9216b269410ad642ef76d9a6d5ccd1cc5185a5dc37223280da6ee0bd0aae877"
+    },
+    {
+      "path": "site/zh/sdk/javascript.html",
+      "bytes": 33553,
+      "sha256": "1e132e3bda33d80ab7a55f7ff2b5ad8ad019b7a0ba8d14c6af86102e8484789d"
+    },
+    {
+      "path": "site/zh/sdk/wechat.html",
+      "bytes": 32052,
+      "sha256": "08ad680858932608c666830eb929a837a4764fa435bc32e8cebdeb3a42f8601c"
+    },
+    {
+      "path": "site/zh/troubleshooting/index.html",
+      "bytes": 28866,
+      "sha256": "0f0170ac7deb543ea7c802319cde013c44695d7b40430c1eb9a5ee0a5ebdb6f9"
+    },
+    {
+      "path": "site/zh/tutorials/diagnosis.html",
+      "bytes": 29616,
+      "sha256": "2509b9f3191d81ceb4c347d08ccac739920aa06c4707ddedd31e561aedaadeac"
+    },
+    {
+      "path": "site/zh/tutorials/first-capture.html",
+      "bytes": 33384,
+      "sha256": "5491754ba733a27bbc36ea9f49e68f44449183def52904b18336bb0c5a802c69"
+    },
+    {
+      "path": "verify-artifact.mjs",
+      "bytes": 8384,
+      "sha256": "3f1e8b0e2ebdb79aad95145e5205a0a1a9356d7be34df47e74feb80fed2af8f9"
+    }
+  ]
+}

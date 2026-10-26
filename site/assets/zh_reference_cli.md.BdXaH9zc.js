@@ -1,0 +1,17 @@
+import{_ as a,o as n,c as s,a2 as o}from"./chunks/framework.iWwp2X7T.js";const m=JSON.parse('{"title":"CLI 命令","description":"Mobile Inspector development documentation · CLI 命令","frontmatter":{"title":"CLI 命令","description":"Mobile Inspector development documentation · CLI 命令"},"headers":[],"relativePath":"zh/reference/cli.md","filePath":"zh/reference/cli.md"}'),p={name:"zh/reference/cli.md"};function t(c,e,i,l,r,d){return n(),s("div",null,[...e[0]||(e[0]=[o(`<h1 id="cli-命令" tabindex="-1">CLI 命令 <a class="header-anchor" href="#cli-命令" aria-label="Permalink to &quot;CLI 命令&quot;">​</a></h1><p>没有安装 PATH 中的执行入口时，使用源码 <code>node bin/mobile-inspector.mjs</code>。示例中的项目与会话选择器必须来自自己的 owner 返回，不能原样当作真实 ID。</p><h2 id="当前命令清单" tabindex="-1">当前命令清单 <a class="header-anchor" href="#当前命令清单" aria-label="Permalink to &quot;当前命令清单&quot;">​</a></h2><p>Version 0.1.0 · development</p><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>Mobile Inspector 0.1.0</span></span>
+<span class="line"><span>Usage: mobile-inspector &lt;command&gt;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>  help                 Show available commands</span></span>
+<span class="line"><span>  --version            Show installed version</span></span>
+<span class="line"><span>  doctor [--json]      Check local prerequisites and capabilities</span></span>
+<span class="line"><span>  start [server flags] Start or reuse the managed local viewer</span></span>
+<span class="line"><span>  instance status      Inspect the active owner</span></span>
+<span class="line"><span>  project              Register, list or configure local projects</span></span>
+<span class="line"><span>  demo --project ID    Create a labelled synthetic recording</span></span>
+<span class="line"><span>  query TOOL --project ID  Read scoped capture summaries</span></span>
+<span class="line"><span>  incidents            Browse bounded incident evidence</span></span>
+<span class="line"><span>  watch --project ID   Foreground diagnosis lease; --off stops it</span></span>
+<span class="line"><span>  diagnose --project ID --incident ID --generation GEN</span></span>
+<span class="line"><span>  mcp serve/setup/remove   Project-scoped evidence bridge and Codex setup</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Run start --help for connection and certificate options.</span></span></code></pre></div><h2 id="变更之前先读取" tabindex="-1">变更之前先读取 <a class="header-anchor" href="#变更之前先读取" aria-label="Permalink to &quot;变更之前先读取&quot;">​</a></h2><p>Help 与 version 不启动 collector。<code>doctor --json</code> 区分前置工具发现和实际能力。项目变更、demo、query 或 MCP 之前先显式启动前台 owner。所有命令支持 <code>--home PATH</code>，同一实例应使用同一个工具拥有的 home。</p><p><code>project add</code> 为主动选择的可信 Git 根授予项目权限。<code>project build</code> 把应用、平台、环境和构建映射到已有 commit 与内部源码目录。应用上报路径不能授权。<code>demo --project ID</code> 生成宿主标记的合成记录，不发业务请求。</p><h2 id="查询选择器" tabindex="-1">查询选择器 <a class="header-anchor" href="#查询选择器" aria-label="Permalink to &quot;查询选择器&quot;">​</a></h2><p>先执行 <code>query list_sessions --project ID</code>，再保留会话 ID 与代次读取轨迹和日志。默认 50 条、最多 200 条；游标翻页必须保持范围、选择器和 limit。旧代次和旧游标会失败，不能静默转到其他记录。默认摘要，部分结果显示缺口。</p><p><code>watch</code>、<code>diagnose</code> 是显式前台编排命令，不保证模型可用，详见<a href="./diagnosis">诊断限制</a>。使用 Ctrl+C 停止自己的前台进程，不能根据端口或旧锁文件杀任意 PID。</p>`,11)])])}const u=a(p,[["render",t]]);export{m as __pageData,u as default};
