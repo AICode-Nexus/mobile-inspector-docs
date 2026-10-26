@@ -5,7 +5,8 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 const BASE='/mobile-inspector-docs/', SITE='https://aicode-nexus.github.io/mobile-inspector-docs/';
 const PAGE_IDS=JSON.parse(String.raw`["index","guide/quickstart","guide/installation","guide/compatibility","guide/capture-model","guide/connection-lan","guide/connection-usb","guide/privacy","sdk/javascript","sdk/h5","sdk/wechat","sdk/ios","sdk/android","sdk/harmonyos","integrations/codex","reference/cli","reference/mcp","reference/configuration","reference/diagnosis","reference/incidents","reference/events","troubleshooting/index","tutorials/first-capture","tutorials/diagnosis"]`);
-const SUPPORT_HASHES=JSON.parse(String.raw`{"README.md":"42f5be7f69288a94ab6642937e2680b5dda049eaf6c75492555c1412fa89c37f","THIRD_PARTY_NOTICES.txt":"d0ed8cb06a5be78cd1806050cc3e943ee8e7563fcbd4a216095b4ffc425c34bd",".github/workflows/pages.yml":"ad3e5d626e68ebc977a39ef177761aa0620189a405765717f7444419f0b978bb"}`);
+const GUIDE_MANIFEST=JSON.parse(String.raw`{"schemaVersion":1,"id":"mobile-inspector-usage-guide","remotionVersion":"4.0.538","entry":"guide-fccc15beaef8.js","mountExport":"mountUsageGuide","locales":["zh","en"],"durationInFrames":2250,"fps":30,"width":1920,"height":1080,"sourceHash":"bf2df990ed5ccae3e4c6f35e52207416b1a0c2b95ff0c8a27d82b377efaa3794","files":[{"path":"guide-fccc15beaef8.js","sha256":"fccc15beaef8df6b4a0a8f3dd3ab7bf8f4e0a4aac9d232117d5c63dc5b5f9216","bytes":612703},{"path":"THIRD_PARTY_NOTICES.txt","sha256":"d439fbc25267d75e9b9c3aabf926b9ce003959f5c94eed9a63bc07838831c296","bytes":12318}]}`);
+const SUPPORT_HASHES=JSON.parse(String.raw`{"README.md":"42f5be7f69288a94ab6642937e2680b5dda049eaf6c75492555c1412fa89c37f","THIRD_PARTY_NOTICES.txt":"9dd6d506782b20705619b342b58c7ef1fccc35c4b57efe6c6b9ade3115d880f5",".github/workflows/pages.yml":"ad3e5d626e68ebc977a39ef177761aa0620189a405765717f7444419f0b978bb"}`);
 const sha=b=>createHash('sha256').update(b).digest('hex');
 function validPath(p) {return typeof p==='string'&&p.length<240&&!p.includes('\\')&&!p.includes('%')&&!p.includes('\0')&&!p.startsWith('/')&&p.split('/').every(s=>/^[A-Za-z0-9_@.-]+$/.test(s)&&s!=='.'&&s!=='..');}
 function walk(root,dir=root) {
@@ -19,7 +20,7 @@ function walk(root,dir=root) {
   });
 }
 function privateText(body,name) {
-  if([/(?:\/Users\/|\/private\/(?:var|tmp)\/|\/var\/folders\/|\/Volumes\/|\/home\/(?!PATH)|[A-Z]:\\Users\\)/i,/(?:\.\.\/)+(?:verification|superpowers)|docs\/(?:verification|superpowers)/i,/maas-api|spark-x2\.6|xf-yun\.com|6f03060|9fb8122/i,/-----BEGIN [A-Z ]*PRIVATE KEY-----/,/(?:sk-[A-Za-z0-9]{16,}|github_pat_|ghp_[A-Za-z0-9]{20,})/,/file:\/\//i].some(re=>re.test(body)))throw Error(`Private content ${name}`);
+  if([/(?:\/Users\/|\/private\/(?:var|tmp)\/|\/var\/folders\/|\/Volumes\/|\/home\/(?!PATH)|[A-Z]:\\Users\\)/i,/(?:\.\.\/)+(?:verification|superpowers)|docs\/(?:verification|superpowers)/i,/maas-api|spark-x2\.6|xf-yun\.com|6f03060|9fb8122/i,/-----BEGIN [A-Z ]*PRIVATE KEY-----/,/(?:sk-[A-Za-z0-9]{16,}|github_pat_|ghp_[A-Za-z0-9]{20,})/,/file:\/\/(?=[^\s"'`\)\]};,])/i].some(re=>re.test(body)))throw Error(`Private content ${name}`);
 }
 export function verifyArtifact(directory,{preview=false}={}) {
   if(lstatSync(directory).isSymbolicLink())throw Error('Symlink root forbidden');
@@ -37,6 +38,11 @@ export function verifyArtifact(directory,{preview=false}={}) {
   const supports=['.github/workflows/pages.yml','README.md','THIRD_PARTY_NOTICES.txt','verify-artifact.mjs'];
   if(names.filter(p=>!p.startsWith('site/')).join('\n')!==supports.sort().join('\n'))throw Error('Unexpected support inventory');
   const routes=['index.html','404.html',...PAGE_IDS.flatMap(id=>['en','zh'].map(l=>`${l}/${id}.html`))], mirrors=['markdown/index.md',...PAGE_IDS.flatMap(id=>['en','zh'].map(l=>`markdown/${l}/${id}.md`))];
+  const guideFiles=['usage-guide/manifest.json',...GUIDE_MANIFEST.files.map(f=>'usage-guide/'+f.path)].sort();
+  const guideManifest=JSON.parse(readFileSync(join(root,'site/usage-guide/manifest.json')));
+  if(JSON.stringify(guideManifest)!==JSON.stringify(GUIDE_MANIFEST))throw Error('Unreviewed guide contract/source/runtime/licenses');
+  if(names.filter(p=>p.startsWith('site/usage-guide/')).map(p=>p.slice(5)).sort().join()!==guideFiles.join())throw Error('Unexpected guide asset inventory');
+  for(const file of GUIDE_MANIFEST.files){const b=readFileSync(join(root,'site/usage-guide',file.path));if(b.length!==file.bytes||sha(b)!==file.sha256)throw Error('Guide hash/license mismatch');}
   const siteNames=new Set(names.filter(p=>p.startsWith('site/')).map(p=>p.slice(5)));let bytes=0;
   for(const route of routes)if(!siteNames.has(route))throw Error(`Missing route ${route}`);
   for(const f of m.files) {
@@ -46,7 +52,8 @@ export function verifyArtifact(directory,{preview=false}={}) {
     if(!f.path.startsWith('site/'))continue;
     const name=f.path.slice(5);
     if(!/\.(?:html|js|css|svg|png|webp|ico|woff2?|txt|md|json|jsonl|xml)$/.test(name)||name.split('/').some(p=>['node_modules','captures','profiles','.git','.env','reports','superpowers'].includes(p)))throw Error(`Forbidden site extension/path ${name}`);
-    if(name.endsWith('.html')&&!routes.includes(name)||name.endsWith('.md')&&!mirrors.includes(name)||name.endsWith('.json')&&!['hashmap.json','build-info.json'].includes(name)||name.endsWith('.jsonl')&&name!=='samples/synthetic-capture.jsonl'||name.endsWith('.txt')&&!['llms.txt','third-party-notices.txt'].includes(name))throw Error(`Unexpected site inventory ${name}`);
+    if(name.startsWith('usage-guide/')&&!guideFiles.includes(name))throw Error('Unreviewed guide asset');
+    if(name.endsWith('.html')&&!routes.includes(name)||name.endsWith('.md')&&!mirrors.includes(name)||name.endsWith('.json')&&!['hashmap.json','build-info.json','usage-guide/manifest.json'].includes(name)||name.endsWith('.jsonl')&&name!=='samples/synthetic-capture.jsonl'||name.endsWith('.txt')&&!['llms.txt','third-party-notices.txt','usage-guide/THIRD_PARTY_NOTICES.txt'].includes(name))throw Error(`Unexpected site inventory ${name}`);
     if(!/\.(png|webp|ico|woff2?)$/.test(name)) {
       const body=b.toString('utf8');privateText(body,name);
       if(/\.(js|html)$/.test(name)&&/(?:new\s+(?:WebSocket|EventSource)|(?:fetch|sendBeacon)\s*\(\s*["'`]https?:|(?:https?:|wss?:)\/\/(?:localhost|127\.0\.0\.1)(?::\d+)?\/(?:api|v1)\/)/.test(body))throw Error(`Unexpected network execution ${name}`);

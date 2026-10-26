@@ -7,6 +7,18 @@ description: "Mobile Inspector development documentation · 第一次采集"
 
 这个离线优先实验创建宿主标记的合成记录，不访问虚构业务 URL，不需要手机或模型。先取得[授权源码](../guide/installation.md)。
 
+## 75 秒动态概览
+
+这段合成动画展示完整流程，其中手机配对**仅适用于已接入 SDK 的内部应用，属于可选步骤**。下方宿主合成实验仍不需要手机或模型。画面中的二维码无法配对，不会执行展示的命令或连接本机采集器；自动诊断仍不可用，自动修复尚未实现。
+
+<ClientOnly>
+<UsageGuide locale="zh" />
+</ClientOnly>
+
+<noscript><p>合成动态指南需要 JavaScript，下方文字步骤仍可完整阅读。</p></noscript>
+
+主动播放或暂停，拖动进度条或使用方向键定位，也可以跳到章节、进入全屏。播放器默认暂停、静音，启用减少动态效果时同样保持暂停。这里提供交互演示，不提供视频下载。
+
 ## 1. 启动一个 owner
 
 ```sh

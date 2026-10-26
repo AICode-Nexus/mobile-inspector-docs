@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mobile-inspector-usage-guide",
+  "remotionVersion": "4.0.538",
+  "entry": "guide-fccc15beaef8.js",
+  "mountExport": "mountUsageGuide",
+  "locales": [
+    "zh",
+    "en"
+  ],
+  "durationInFrames": 2250,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "sourceHash": "bf2df990ed5ccae3e4c6f35e52207416b1a0c2b95ff0c8a27d82b377efaa3794",
+  "files": [
+    {
+      "path": "guide-fccc15beaef8.js",
+      "sha256": "fccc15beaef8df6b4a0a8f3dd3ab7bf8f4e0a4aac9d232117d5c63dc5b5f9216",
+      "bytes": 612703
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "sha256": "d439fbc25267d75e9b9c3aabf926b9ce003959f5c94eed9a63bc07838831c296",
+      "bytes": 12318
+    }
+  ]
+}

@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: "了解采集模型"
       link: /zh/guide/capture-model
+    - theme: alt
+      text: "观看 75 秒使用指南"
+      link: /zh/tutorials/first-capture
 ---
 
 <div class="status-strip"><span class="status-dot"></span> 0.1.0 DEVELOPMENT · 私有源码 · 公开文档 · 合成示例</div>

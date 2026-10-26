@@ -7,6 +7,18 @@ description: "Mobile Inspector development documentation · Your first capture"
 
 This offline-first exercise creates a host-labelled synthetic recording. It sends no request to the invented business URLs and needs no phone or model. Obtain [authorized source](../guide/installation.md) first.
 
+## 75-second visual overview
+
+This synthetic animation shows the broader workflow, including optional phone pairing **only for an already-integrated internal app**. The written host exercise below still needs no phone or model. The illustrated QR code cannot pair a device. Nothing displayed here executes commands or connects to your local collector; automatic diagnosis remains unavailable and automatic repair is not implemented.
+
+<ClientOnly>
+<UsageGuide locale="en" />
+</ClientOnly>
+
+<noscript><p>The synthetic animation requires JavaScript. All written steps remain available below.</p></noscript>
+
+Play and pause explicitly; drag or use the arrow keys on the progress slider, jump to a chapter, or enter fullscreen. The player starts paused and silent, including with reduced-motion enabled. This page offers an interactive illustration, not a video download.
+
 ## 1. Start one owner
 
 ```sh

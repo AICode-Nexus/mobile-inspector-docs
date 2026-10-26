@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: "How capture works"
       link: /en/guide/capture-model
+    - theme: alt
+      text: "Watch the 75-second guide"
+      link: /en/tutorials/first-capture
 ---
 
 <div class="status-strip"><span class="status-dot"></span> 0.1.0 DEVELOPMENT · PRIVATE SOURCE · PUBLIC DOCS · SYNTHETIC EXAMPLES</div>
