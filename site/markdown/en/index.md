@@ -13,18 +13,23 @@ hero:
       text: "Start locally"
       link: /en/guide/quickstart
     - theme: alt
-      text: "How capture works"
-      link: /en/guide/capture-model
-    - theme: alt
       text: "Watch the 75-second guide"
-      link: /en/tutorials/first-capture
+      link: /en/tutorials/first-capture#animated-guide
 ---
 
-<div class="status-strip"><span class="status-dot"></span> 0.1.0 DEVELOPMENT · PRIVATE SOURCE · PUBLIC DOCS · SYNTHETIC EXAMPLES</div>
+<div class="status-strip"><span class="status-dot"></span><span class="status-copy">0.1.0 DEVELOPMENT · PRIVATE SOURCE · PUBLIC DOCS · SYNTHETIC EXAMPLES</span></div>
 
-## Your first useful observation
+<div class="home-start">
 
-The source repository is private: obtain authorized access and select a reviewed ref first. No public stable product package is offered. From that complete checkout:
+<div>
+
+## Start with a local observation
+
+The source repository is private: obtain authorized access and select a reviewed ref first. No public stable product package is offered. Start your local viewer from that complete checkout.
+
+</div>
+
+<div>
 
 ```sh
 npm ci --ignore-scripts
@@ -33,11 +38,15 @@ node bin/mobile-inspector.mjs start
 
 Open the printed viewer URL and select the labelled synthetic example. This does not connect a real device or model.
 
+</div>
+
+</div>
+
 <div class="principles">
 
 <section>
 
-### Explicit by design
+### Explicit capture
 
 Configure while stopped. Confirm the destination. Start recording separately. Verify actual receipt. Account and environment changes invalidate old work.
 
@@ -45,7 +54,7 @@ Configure while stopped. Confirm the destination. Start recording separately. Ve
 
 <section>
 
-### Bounded and explainable
+### Bounded evidence
 
 Memory budgets, incremental SSE and explicit gap markers. HTTP status, transport completion and business outcome stay distinct.
 
@@ -53,7 +62,7 @@ Memory budgets, incremental SSE and explicit gap markers. HTTP status, transport
 
 <section>
 
-### One collector, shared evidence
+### Shared tools
 
 Viewer, CLI and five read-only MCP tools share project-scoped evidence. Automatic diagnosis is unaccepted; M4 repair is not implemented.
 
@@ -63,6 +72,20 @@ Viewer, CLI and five read-only MCP tools share project-scoped evidence. Automati
 
 ## Choose your integration
 
-[JavaScript](./sdk/javascript.md) · [H5](./sdk/h5.md) · [WeChat](./sdk/wechat.md) · [iOS](./sdk/ios.md) · [Android](./sdk/android.md) · [HarmonyOS](./sdk/harmonyos.md)
+<nav class="integration-links" aria-label="SDK integration">
 
-Continue with [CLI](./reference/cli.md) · [Codex / MCP](./integrations/codex.md) · [LAN / QR](./guide/connection-lan.md) · [USB](./guide/connection-usb.md) · [Privacy](./guide/privacy.md)
+[JavaScript](./sdk/javascript.md)
+
+[H5](./sdk/h5.md)
+
+[WeChat](./sdk/wechat.md)
+
+[iOS](./sdk/ios.md)
+
+[Android](./sdk/android.md)
+
+[HarmonyOS](./sdk/harmonyos.md)
+
+</nav>
+
+Read [how capture works](./guide/capture-model.md), or continue with [CLI](./reference/cli.md) · [Codex / MCP](./integrations/codex.md) · [LAN / QR](./guide/connection-lan.md) · [USB](./guide/connection-usb.md) · [Privacy](./guide/privacy.md)

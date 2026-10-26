@@ -13,18 +13,23 @@ hero:
       text: "快速开始"
       link: /zh/guide/quickstart
     - theme: alt
-      text: "了解采集模型"
-      link: /zh/guide/capture-model
-    - theme: alt
       text: "观看 75 秒使用指南"
-      link: /zh/tutorials/first-capture
+      link: /zh/tutorials/first-capture#animated-guide
 ---
 
-<div class="status-strip"><span class="status-dot"></span> 0.1.0 DEVELOPMENT · 私有源码 · 公开文档 · 合成示例</div>
+<div class="status-strip"><span class="status-dot"></span><span class="status-copy">0.1.0 DEVELOPMENT · 私有源码 · 公开文档 · 合成示例</span></div>
 
-## 先有权限，再开始
+<div class="home-start">
 
-源码仍为私有，请先获得仓库访问权限并选择已审阅版本。本站不提供公开稳定产品安装包。取得完整 checkout 后运行：
+<div>
+
+## 从本地开始观察
+
+源码仍为私有，请先获得仓库访问权限并选择已审阅版本。本站不提供公开稳定产品安装包。取得完整 checkout 后，启动你的本地查看器。
+
+</div>
+
+<div>
 
 ```sh
 npm ci --ignore-scripts
@@ -33,11 +38,15 @@ node bin/mobile-inspector.mjs start
 
 打开进程打印的地址，选择明确标记的合成示例；这不会连接真实设备或模型。
 
+</div>
+
+</div>
+
 <div class="principles">
 
 <section>
 
-### 主动，而非隐式
+### 主动采集
 
 停止状态配置 → 确认目标 → 独立开始记录 → 核对实际到达。账号或环境变化使旧代次失效。
 
@@ -45,7 +54,7 @@ node bin/mobile-inspector.mjs start
 
 <section>
 
-### 有界，而可解释
+### 有界证据
 
 内存预算、增量 SSE 与明确缺口标记。HTTP 状态、传输结束和业务结果分别观察。
 
@@ -53,7 +62,7 @@ node bin/mobile-inspector.mjs start
 
 <section>
 
-### 一份证据，多种入口
+### 工具协作
 
 查看器、CLI 与五个只读 MCP 工具共用项目范围证据。自动诊断未验收，M4 自动修复未实现。
 
@@ -63,6 +72,20 @@ node bin/mobile-inspector.mjs start
 
 ## 选择你的接入点
 
-[JavaScript](./sdk/javascript.md) · [H5](./sdk/h5.md) · [WeChat](./sdk/wechat.md) · [iOS](./sdk/ios.md) · [Android](./sdk/android.md) · [HarmonyOS](./sdk/harmonyos.md)
+<nav class="integration-links" aria-label="SDK 接入">
 
-继续阅读 [CLI](./reference/cli.md) · [Codex / MCP](./integrations/codex.md) · [LAN / QR](./guide/connection-lan.md) · [USB](./guide/connection-usb.md) · [隐私](./guide/privacy.md)
+[JavaScript](./sdk/javascript.md)
+
+[H5](./sdk/h5.md)
+
+[WeChat](./sdk/wechat.md)
+
+[iOS](./sdk/ios.md)
+
+[Android](./sdk/android.md)
+
+[HarmonyOS](./sdk/harmonyos.md)
+
+</nav>
+
+了解[采集模型](./guide/capture-model.md)，继续阅读 [CLI](./reference/cli.md) · [Codex / MCP](./integrations/codex.md) · [LAN / QR](./guide/connection-lan.md) · [USB](./guide/connection-usb.md) · [隐私](./guide/privacy.md)
